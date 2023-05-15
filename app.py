@@ -9,9 +9,10 @@
 print("Hello, world!")
 
 def isPalindrome(h):
+    h=h.lower()
     return h == h[:: -1]
 
-h = "radar"
+h = "Python programs require"
 jibu = isPalindrome(h)
 
 if jibu:
@@ -21,5 +22,46 @@ else:
 
 
 
+# # iterative method.
+# def isPalindrome(s):
+
+# 	# Run loop from 0 to len/2
+# 	for i in range(0, int(len(str)/2)):
+# 		if str[i] != str[len(str)-i-1]:
+# 			return False
+# 	return True
+
+# # main function
+# s = "malayalam"
+# ans = isPalindrome(s)
+
+# if (ans):
+# 	print("Yes")
+# else:
+# 	print("No")
 
 
+
+
+# function to check string is
+# palindrome or not
+# def isPalindrome(j):
+  
+#     # Using predefined function to
+#     # reverse to string print(s)
+#     jina = ''.join(reversed(j))
+  
+#     # Checking if both string are
+#     # equal or not
+#     if (j == jina):
+#         return True
+#     return False
+  
+# # main function
+# j = "malayalam"
+# ans = isPalindrome(j)
+  
+# if (ans):
+#     print("Yes")
+# else:
+#     print("No")
